@@ -4,7 +4,7 @@ import { ContactCard } from "./ContactCard";
 
 const getAllContacts = () => {
   return fetch(
-    "https://assets.breatheco.de/apis/fake/contact/agenda/agenda_2021"
+    "https://assets.breatheco.de/apis/fake/contact/agenda/efg_agenda"
   ).then((response) => response.json());
 };
 
